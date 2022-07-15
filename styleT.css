@@ -1,0 +1,72 @@
+@import url(https://fonts.googleapis.com/css?family=Josefin+Sans:400,700,700italic,400italic);
+
+html {
+  background-image: url(https://live.staticflickr.com/8190/8101897311_30109f3287_b.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  transition: 0.5s;
+  object-fit: cover;
+}
+
+/* Header */
+header {
+  padding: 20px 0;
+  height: 80px;
+  border-bottom: 1px solid rgb(221, 221, 221);
+  transition: border-bottom-color 1s ease;
+  font-family: "Josefin Sans", serif;
+  color: rgba(0, 0, 0, 0.8);
+}
+header ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+header li {
+  display: inline;
+  vertical-align: middle;
+}
+header li:first-child {
+  margin: 0 auto;
+}
+header li a {
+  margin: 0 10px;
+}
+header li.logo {
+  font-size: 36px;
+}
+header a {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.8);
+}
+
+.tweets {
+  display: flex;
+  justify-content: center;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+article {
+  flex-direction: center;
+}
+
+.titulos {
+  font-family: Poppins;
+  font-size: 35px;
+  padding-left: 100px;
+  color: white;
+}
+
+.head {
+  color: white;
+}
+
+.holberton {
+  color: white;
+}

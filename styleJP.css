@@ -1,0 +1,139 @@
+html {
+  background-image: url(https://wallpapercave.com/wp/wp2834325.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+  flex: auto;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  font-family: Roboto Mono;
+}
+
+.links {
+  color: white;
+}
+
+article {
+  flex: 2;
+  overflow-y: auto;
+}
+
+header {
+  color: white;
+}
+
+.nguitars {
+  color: white;
+  font-family: Roboto Mono;
+  display: block;
+  white-space: nowrap;
+  border-right: 4px solid;
+  width: 28ch;
+
+  animation: typing 3s steps(18), blink 0.4s infinite step-end alternate;
+  overflow: hidden;
+}
+@keyframes typing {
+  from {
+    width: 0;
+  }
+}
+
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
+}
+
+.nguitars2 {
+  color: white;
+  font-family: Roboto Mono;
+  display: block;
+  white-space: nowrap;
+  border-right: 4px solid;
+  width: 24ch;
+
+  animation: typing 4s steps(18), blink 0.4s infinite step-end alternate;
+  overflow: hidden;
+}
+@keyframes typing {
+  from {
+    width: 0;
+  }
+}
+
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
+}
+
+.nguitars3 {
+  color: white;
+  font-family: Roboto Mono;
+  display: block;
+  white-space: nowrap;
+  border-right: 4px solid;
+  width: 4ch;
+
+  animation: typing 2s steps(5), blink 0.4s infinite step-end alternate;
+  overflow: hidden;
+}
+@keyframes typing {
+  from {
+    width: 0;
+  }
+}
+
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
+}
+
+.zoom {
+  overflow: hidden;
+  transition: 0.5s;
+  object-fit: cover;
+  width: 1000px;
+}
+
+.zoom:hover {
+  transform: scale(1.1);
+}
+
+.audio {
+  border: 5px solid;
+  border-radius: 70px;
+  padding: 0.5px;
+  margin: 2px;
+  overflow: hidden;
+  transition: 0.5s;
+  object-fit: cover;
+  width: 300px;
+}
+
+.audio:hover {
+  transform: scale(1.1);
+}
+
+.reproducir {
+  color: #f5f5f5;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  border-radius: 5px;
+}
+
+u {
+  color: white;
+}

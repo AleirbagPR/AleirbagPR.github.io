@@ -2,7 +2,7 @@ span {
   display: block;
   white-space: nowrap;
  border-right: 4px solid;
- width: 8ch;  
+ width: 7ch;  
  
   animation: typing 3s steps(14), blink .4s infinite step-end alternate; overflow: hidden;
 } 
